@@ -6,7 +6,7 @@ No es un proyecto "académico" al uso, sino algo práctico, pensado para aprende
 
 ---
 
-## 🧠 ¿Qué hace la API?
+##  ¿Qué hace la API?
 
 * Recibe un texto
 * Analiza si el sentimiento es **positivo o negativo** (modelo muy simple)
@@ -15,7 +15,7 @@ No es un proyecto "académico" al uso, sino algo práctico, pensado para aprende
 
 ---
 
-## 🛠️ Tecnologías usadas
+##  Tecnologías usadas
 
 * **Python 3**
 * **FastAPI** (API REST)
@@ -27,7 +27,7 @@ No es un proyecto "académico" al uso, sino algo práctico, pensado para aprende
 
 ---
 
-## 📦 Estructura del proyecto
+##  Estructura del proyecto
 
 ```
 PROYECTO API/
@@ -41,9 +41,9 @@ PROYECTO API/
 
 ---
 
-## 🚀 Ejecutar el proyecto en local
+##  Ejecutar el proyecto en local
 
-### 1️⃣ Crear entorno virtual
+### 1️ Crear entorno virtual
 
 ```bash
 python -m venv venv
@@ -59,7 +59,7 @@ venv\Scripts\activate
 
 ---
 
-### 2️⃣ Instalar dependencias
+### 2️ Instalar dependencias
 
 ```bash
 pip install -r requirements.txt
@@ -67,7 +67,7 @@ pip install -r requirements.txt
 
 ---
 
-### 3️⃣ Lanzar la API
+### 3️ Lanzar la API
 
 ```bash
 uvicorn app:app --reload
@@ -87,7 +87,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## 🐳 Ejecutar con Docker
+##  Ejecutar con Docker
 
 ### Build de la imagen
 
@@ -103,7 +103,7 @@ docker run -p 8000:8000 api-sentiment
 
 ---
 
-## ☁️ Despliegue en Azure
+##  Despliegue en Azure
 
 La imagen está subida a Docker Hub y desplegada en **Azure App Service (Linux + Docker)**.
 
@@ -121,7 +121,7 @@ https://api-sentiment-guillermoaparicio-dnf6atacabbvcyd5.spaincentral-01.azurewe
 
 ---
 
-## 📡 Endpoints principales
+##  Endpoints principales
 
 ### GET `/`
 
@@ -164,7 +164,7 @@ Devuelve el historial de predicciones guardadas.
 
 ---
 
-## 📌 Notas
+##  Notas
 
 * La base de datos es **SQLite**, pensada solo para pruebas.
 * En un entorno real se usaría una base de datos externa.
@@ -172,7 +172,7 @@ Devuelve el historial de predicciones guardadas.
 
 ---
 
-## 🎯 Objetivo del proyecto
+##  Objetivo del proyecto
 
 * Practicar desarrollo backend real
 * Aprender Docker desde cero
@@ -181,7 +181,7 @@ Devuelve el historial de predicciones guardadas.
 
 ---
 
-## 👤 Autor
+##  Autor
 
 Guillermo Aparicio
 
